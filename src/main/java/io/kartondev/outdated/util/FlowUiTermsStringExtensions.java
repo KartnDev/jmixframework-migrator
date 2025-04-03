@@ -20,10 +20,10 @@ public class FlowUiTermsStringExtensions {
                     .replaceAll("(?i)editor", "DetailView")
                     .replaceAll("(?i)edit", "DetailView");
 
-            postfix = postfix.replaceAll("(?i)browser", ".list")
-                    .replaceAll("(?i)browse", ".list")
-                    .replaceAll("(?i)editor", ".detail")
-                    .replaceAll("(?i)edit", ".detail");
+            postfix = postfix.replaceAll("(?i)browser", "list")
+                    .replaceAll("(?i)browse", "list")
+                    .replaceAll("(?i)editor", "detail")
+                    .replaceAll("(?i)edit", "detail");
 
             return prefixAppName + name + postfix;
         }
